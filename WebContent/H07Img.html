@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>H07Img.html</title>
+</head>
+<body>
+	<h2>img 태그</h2>
+	<img src="./images/1.png" alt="스펀지밥">
+	
+	<h2>이미지 크기 설정</h2>
+	<img src="./images/1.png" width="100" alt="스펀지밥" />
+	<img src="./images/2.png" width="100" height="200" alt="징징이" />
+	<img src="./images/2.png" alt="징징이" />
+	
+	<h2>이미지에 링크걸기</h2>
+	
+	<a href="http://koreavc.or.kr/" target="_blank">
+		<img src="./images/logo.png" alt="로고" />
+	</a>
+	
+	<h2>외부에 있는 이미지 가져오기</h2>
+	<a href="http://ikosmo.co.kr/" target="_blank">
+		<img src="https://img9.yna.co.kr/etc/inner/KR/2019/04/08/AKR20190408066300073_01_i_P2.jpg" alt="한국직업전문학교">
+	</a>
+	
+	<h2>이미지맵 사용하기</h2>
+	<!-- http://maschek.hu/imagemap/imgmap/ -->
+	<img src="./images/Map01.png" alt="이미지맵 사용하기" usemap="#MyImage">
+	
+	<map name="MyImage">
+		<area shape="rect" alt="" title="" coords="72,128,173,231" href="http://naver.com" target="" />
+		<area shape="circle" alt="" title="" coords="259,184,51" href="http://nate.com" target="" />
+		<area shape="poly" alt="" title="" coords="372,128,306,232,438,232" href="http://daum.net" target="" />
+		<area shape="poly" alt="" title="" coords="498,130,479,171,441,185,487,206,499,236,512,195,547,179,504,174" href="http://www.auction.co.kr/" target="" />
+		
+		<!-- Created by Online Image Map Editor (http://www.maschek.hu/imagemap/index) -->
+	</map>
+	
+</body>
+</html>
